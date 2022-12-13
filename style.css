@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    color: #000;
+    
+
+}
+
+body{
+    padding-right: 80px;
+    padding-left: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+ header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+        font-family: 'Inter', sans-serif;
+        
+}
+
+.dados-pesquisa{
+    display: flex;
+    color: black;
+    gap: 40px;
+    font: bold;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+
+.circulo{
+    position: absolute;
+    border-radius: 50%;
+    width: 659px;
+    background: linear-gradient(179.96deg, #9C0610 0.04%, #CF5C55 99.96%);
+    box-shadow: 73px 8px 38px -10px rgba(189, 63, 61, 0.42);
+    transform: rotate(27.74deg);
+    height: 679px;
+    grid-column: 4/6;
+    top: 155px;
+    left: 277px;
+    
+}
+.tenis{
+    position: absolute;
+    transform: rotate(10deg);
+    top: 105.6px;
+    left: 210.52px;
+    width: 750.57px;
+    height: 750px;
+    grid-column: 4/6;
+    
+}
+
+.titles{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 6/10;
+    gap: 7px;
+    align-items: center;
+}
+.titulo{
+    position: absolute;
+    letter-spacing: 7px;
+    width: 257px;
+    height: 44px;
+    top: 270px;
+    left: 1047px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+   
+}
+.subtitulo{
+    position: absolute;
+    letter-spacing: 25px;
+    width: 751px;
+    height: 120px;
+    top: 340px;
+    left: 1033px;
+    font-size: 96px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+}
+.discription{
+    position: absolute;
+    grid-column: 8/10;
+    width: 672px;
+    height: 211px;
+    top: 470px;
+    left: 1047px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #585858;
+
+}
+
+.button-shop-now{ 
+    position: absolute;
+    top: 680px;
+    left: 1147px;
+    grid-column: 9/10;
+    font-family: 'Inter', sans-serif;
+}
+.button-shop-now>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    height: 10vh;
+    width: 38vh;
+    background-color: black;
+    border-radius: 50px;
+    font-style: normal;
+}
+
+.divisoria{
+    background: linear-gradient(174.44deg, rgba(11, 11, 11, 0.95) -0.36%, rgba(13, 13, 13, 0.855) 104.09%);
+    background-blend-mode: darken;
+    grid-column: 1/6;
+    position: absolute;
+    width: 616px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+.redes-sociais{
+    position: absolute;
+    top: 900px;
+    color: white;
+    font-family: 'Gilda Display'
+}
+
+.menu{
+    position: absolute;
+    left: 910px;
+    top: 440px;
+}
+
+.menu-image{
+    width: 35px;
+    height: 25px;
+}
+
+.logo-user{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+
+}
+.logo-user>img{
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.nomemarca{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 705px;
+    top: 730px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 180px;
+    line-height: 339px;
+    letter-spacing: 0.025em;
+    color: rgba(0, 0, 0, 0.07);
+    font-family: 'Inter', sans-serif;
+
+}
+
+.rodape{
+    height: 20px;
+    
+    
+}
+
+    
